@@ -86,7 +86,7 @@ eg_response.raise_for_status()
 ```
 
 ### Step 3:
-	You will create the backend function meant for when the frontend.py is completed.
+You will create the backend function meant for when the frontend.py is completed.
 
 You will create a ‘def’ function to get the weather in this step. The function is meant for when you want to do the frontend (frontend.py), as in this example, where the backend is the backend.py file. In this case, you can import the file if you are using any of the three code editors I listed above.
 ```
