@@ -820,5 +820,6 @@ def getHourlyWeather():
 
 Hope you loved this, if so, star ⭐ this repository.
 To view this in your computer, using python, run frontend.py, not backend.py.
-If you want it online, use the source.html and open it in your browser.
+If you want it online, use the index.html and open it in your browser.
 
+Or this link: https://denzeldcb.github.io/WeatherAppPython
