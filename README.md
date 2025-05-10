@@ -12,7 +12,7 @@ When you are ready, read on.
 Before we start with this topic, make sure you have created a file called backend.py.
 
 ### Step 1:
-	Get all required modules or Python libraries; the ones we will use are requests, pandas, and the datetime library. Go ahead and import them. If they are not imported or installed, run this command in your code editor terminal or Command Prompt:
+Get all required modules or Python libraries; the ones we will use are requests, pandas, and the datetime library. Go ahead and import them. If they are not imported or installed, run this command in your code editor terminal or Command Prompt:
 ```
 pip install requests, pandas, datetime
 ```
