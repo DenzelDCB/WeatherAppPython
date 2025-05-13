@@ -45,7 +45,7 @@ def getHourlyWeather():
             "longitude": LON,
             "hourly": "temperature_2m,weathercode",
             "timezone": "auto",
-            "forecast_days": 15,  
+            "forecast_days": 16,  
             "past_days": 1,
             "temperature_unit": "fahrenheit"
         }
