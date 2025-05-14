@@ -28,7 +28,7 @@ Those modules are the main thing in this code, as without them, this code would 
 	
  Get the API’s URL and its encoding map.
 
-The api we are going to use is “https://api.open-meteo.com/v1/forecast” - (Open-Meteo)
+The api we are going to use is “https://api.open-meteo.com/v1/forecast” - (Open-Meteo) because they provide free weather for up to 16 days.
 Put that string link inside a variable called BASE_URL
 
 The weather code map is provided below, as well as how you should set the BASE_URL variable:
