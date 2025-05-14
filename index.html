@@ -130,7 +130,7 @@
 
                 for (let i = 0; i < times.length; i++) {
                     const [date, hour] = times[i].split('T');
-                    const weather = WEATHER_CODE_MAP[weatherCodes[i]] || "Unknown";
+                    const weather = WEATHER_CODE_MAP[weatherCodes[i]] || "Still getting data... Check this time in a few hours.";
                     const temp = temperatures[i] + "°F";
 
                     if (date === currentDate) {
