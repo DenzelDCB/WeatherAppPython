@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Number Generator</title>        
+        <style>
+            input {
+                max-width: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Generate <input type="number" id="amount" value="100" title="Amount of random numbers to be generated." placeholder="100"> random numbers.</p>
+        <p>Generate random numbers between <input type="number" id="min" value="1" title="Amount of random numbers to be generated." placeholder="100"> and <input type="number" id="max" value="100" title="Amount of random numbers to be generated." placeholder="100">.</p>
+        <p>Format in <input type="number" id="cols" value="10" title="Amount of random numbers to be generated." placeholder="100"> columns.</p>
+        <button onclick="getRNDNum()">Generate</button>
+        <div id="result"></div>
+        <!-- Hello World! I am enjoying using HTML! Identification, Authentication, Authorization. -->
+        <script>
+            let result = document.getElementById('result');
+            function getRNDNum() {
+                let amount = parseInt(document.getElementById('amount').value);
+                let cols = parseInt(document.getElementById('cols').value);
+                let min = parseInt(document.getElementById('min').value);
+                let max = parseInt(document.getElementById('max').value);
+                let output = ''
+                let numbers = []
+
+                for (let i = 0; i < amount; i++) {
+                    let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+                    output += randomNum;
+                    if (i < amount - 1) output += ', ';
+                    if ((i + 1) % cols === 0) output += '<br>';
+                };
+                result.innerHTML=output
+            };
+        </script>
+    </body>
+</html>
